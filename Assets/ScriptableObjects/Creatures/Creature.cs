@@ -1,4 +1,3 @@
-using UnityEditor;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Creature", menuName = "Scriptable Objects/Creature")]

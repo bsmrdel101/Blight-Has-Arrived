@@ -8,6 +8,8 @@ public class PlayerMovement : MonoBehaviour
 
   [Header("References")]
   [SerializeField] private Rigidbody2D rb;
+  [SerializeField] private Animator animator;
+  [SerializeField] private SpriteRenderer spriteRenderer;
 
   private InputSystem_Actions controls;
   private Vector2 moveInput;
@@ -30,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
     controls.Disable();
   }
 
+
   private void OnMove(CallbackContext ctx)
   {
     moveInput = ctx.ReadValue<Vector2>();
@@ -38,11 +41,18 @@ public class PlayerMovement : MonoBehaviour
   private void FixedUpdate()
   {
     MovePlayer();
+    AnimateMovement();
   }
 
   private void MovePlayer()
   {
     Vector2 movement = moveSpeed * Time.fixedDeltaTime * moveInput;
     rb.MovePosition(rb.position + movement);
+  }
+
+  private void AnimateMovement()
+  {
+    animator.SetBool("isRunning", moveInput != Vector2.zero);
+    spriteRenderer.flipX = moveInput.x < 0;
   }
 }
