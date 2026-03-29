@@ -22,6 +22,7 @@ public class EnemyAttackController : MonoBehaviour
   {
     Transform player = GameObject.FindWithTag("Player").transform;
     attack.target = player;
+    float prevSpeed = entity.agent.speed;
     while(true)
     {
       if (!player) break;
@@ -29,9 +30,11 @@ public class EnemyAttackController : MonoBehaviour
       if (distance <= attack.range && attack.canAttack && !entity.isDead)
       {
         if (attackClip) animator.Play(attackClip.name, 0, 0f);
+        entity.agent.speed = 0;
         attack.StartAttack();
       }
       yield return new WaitForSeconds(attack.atkDuration);
+      entity.agent.speed = prevSpeed;
     }
   }
 }

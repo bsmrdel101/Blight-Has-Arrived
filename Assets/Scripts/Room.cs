@@ -6,16 +6,32 @@ public class Room : MonoBehaviour
   [SerializeField] private int difficulty;
   [SerializeField] private int enemyCount;
   [SerializeField] private bool spawnEnemies = true;
+  bool clearedRoom = false;
+  
+  [Header("References")]
+  private GameManager gameManager;
+
 
   private void Start()
   {
-    if (!spawnEnemies) return;
+    gameManager = FindAnyObjectByType<GameManager>();
+
+    if (!spawnEnemies || gameManager.HasClearedRoom(this)) return;
     EnemyManager enemyManager = FindAnyObjectByType<EnemyManager>(); 
     Entity[] enemies = enemyManager.GetRandomEnemies(difficulty, enemyCount);
     foreach (Entity entity in enemies)
     {
       GameObject obj = Instantiate(entity.prefab, transform.position, Quaternion.identity, transform);
       StartCoroutine(ResetRotationNextFrame(obj));
+    }
+  }
+
+  private void Update()
+  {
+    if (!clearedRoom && !AreEnemiesAlive())
+    {
+      clearedRoom = true;
+      gameManager.ClearRoom(this);
     }
   }
 

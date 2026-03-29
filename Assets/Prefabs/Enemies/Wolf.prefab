@@ -166,9 +166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e1e63101717de0e9c3326bca87acb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Wolf
-  maxHp: 10
+  maxHp: 6
   isDead: 0
-  moveSpeed: 7
+  moveSpeed: 5
   acceleration: 12
   followDistance: 0.8
   animator: {fileID: 8982481968729198762}
@@ -352,7 +352,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.52
+  m_Intensity: 0.25
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
