@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackController : MonoBehaviour
+public class PlayerAttackController : MonoBehaviour
 {
   [SerializeField] private List<Attack> attacks = new List<Attack>();
   private Attack selectedAttack;
@@ -31,11 +31,5 @@ public class AttackController : MonoBehaviour
   private void OnDisable()
   {
     controls.Disable();
-  }
-
-
-  public void OnHit(Entity entity, int dmg)
-  {
-    entity.TakeDmg(dmg);
   }
 }

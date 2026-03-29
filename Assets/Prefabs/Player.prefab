@@ -282,6 +282,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   maxHp: 10
+  moveSpeed: 0
+  acceleration: 0
+  followDistance: 0
 --- !u!114 &3727392680646560065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,6 +400,10 @@ PrefabInstance:
       value: claws
       objectReference: {fileID: 0}
     - target: {fileID: 7737443674677141224, guid: 759aa92d31f3a4bba98564e7fa1b0353, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 3468109219193297815}
+    - target: {fileID: 7737443674677141224, guid: 759aa92d31f3a4bba98564e7fa1b0353, type: 3}
       propertyPath: pivotPoint
       value: 
       objectReference: {fileID: 815973218065561995}
@@ -413,6 +420,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 759aa92d31f3a4bba98564e7fa1b0353, type: 3}
+--- !u!95 &3468109219193297815 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7211622861760273085, guid: 759aa92d31f3a4bba98564e7fa1b0353, type: 3}
+  m_PrefabInstance: {fileID: 6068009224582496554}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &4563565043642392514 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7737443674677141224, guid: 759aa92d31f3a4bba98564e7fa1b0353, type: 3}

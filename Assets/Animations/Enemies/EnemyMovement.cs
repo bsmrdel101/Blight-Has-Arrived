@@ -10,6 +10,8 @@ public class EnemyMovement : MonoBehaviour
 
   [Header("References")]
   [SerializeField] private Entity entity;
+  [SerializeField] private Animator animator;
+  [SerializeField] private SpriteRenderer spriteRenderer;
 
 
   private void Start()
@@ -25,15 +27,20 @@ public class EnemyMovement : MonoBehaviour
 
   private IEnumerator UpdateTarget()
   {
+    animator.SetBool("isRunning", true);
     while (canMove)
     {
       yield return new WaitForSeconds(0.2f);
-      Transform target = GameObject.FindWithTag("Player").transform;
-      if (!target) continue;
+      GameObject player = GameObject.FindWithTag("Player");
+      if (!player) break;
+      Transform target = player.transform;
+      spriteRenderer.flipX = target.position.x < transform.position.x;
       // TODO: Raycast to see if a wall is in the way of shooting
       agent.SetDestination(target.position);
     }
     agent.SetDestination(transform.position);
+    agent.speed = 0;
     yield return new WaitForSeconds(0.2f);
+    animator.SetBool("isRunning", false);
   }
 }
