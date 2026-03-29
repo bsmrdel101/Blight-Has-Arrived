@@ -21,6 +21,7 @@ public abstract class Entity : MonoBehaviour
   [Header("References")]
   [SerializeField] private Rigidbody2D rb;
   [SerializeField] private NavMeshAgent agent;
+  public GameObject prefab;
 
   
   private void Start()

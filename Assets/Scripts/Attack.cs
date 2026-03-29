@@ -55,6 +55,7 @@ public class Attack : MonoBehaviour
     }
     else
     {
+      if (!playerCam) return;
       Vector2 mousePos = Mouse.current.position.ReadValue();
       Vector3 worldMouse = playerCam.ScreenToWorldPoint(new Vector3(mousePos.x, mousePos.y, Mathf.Abs(playerCam.transform.position.z)));
       dir = worldMouse - pivotPoint.position;

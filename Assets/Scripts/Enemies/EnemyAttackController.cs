@@ -24,6 +24,7 @@ public class EnemyAttackController : MonoBehaviour
     attack.target = player;
     while(true)
     {
+      if (!player) break;
       float distance = Vector3.Distance(player.position, transform.position);
       if (distance <= attack.range && attack.canAttack && !entity.isDead)
       {
