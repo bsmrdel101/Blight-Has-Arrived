@@ -166,9 +166,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Wolf
   maxHp: 10
+  isDead: 0
   moveSpeed: 7
   acceleration: 12
   followDistance: 0.8
+  animator: {fileID: 8982481968729198762}
+  deathAnim: {fileID: 7400000, guid: d2f3ff8f3b1b1c03da531bc06c10e3e1, type: 2}
+  rb: {fileID: 5433572534895670226}
+  agent: {fileID: 4760380005847514537}
 --- !u!114 &4125716901042686962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -197,9 +202,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: beff4ebab2ef2175fbc342d107d45ba1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyAttackController
-  attack: {fileID: 4378784416311040818}
   animator: {fileID: 8982481968729198762}
   attackClip: {fileID: 7400000, guid: 6d4d2bb37712205d0a1bb696617c9201, type: 2}
+  attack: {fileID: 4378784416311040818}
+  entity: {fileID: 3460923978516825753}
 --- !u!50 &5433572534895670226
 Rigidbody2D:
   serializedVersion: 5
@@ -286,7 +292,7 @@ NavMeshAgent:
   m_Speed: 3.5
   m_Acceleration: 12
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 60
   m_StoppingDistance: 0
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1

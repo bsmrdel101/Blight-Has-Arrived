@@ -6,7 +6,6 @@ public class EnemyMovement : MonoBehaviour
 {
   [Header("Navigation")]
   [SerializeField] private NavMeshAgent agent;
-  private readonly bool canMove = true;
 
   [Header("References")]
   [SerializeField] private Entity entity;
@@ -28,19 +27,21 @@ public class EnemyMovement : MonoBehaviour
   private IEnumerator UpdateTarget()
   {
     animator.SetBool("isRunning", true);
-    while (canMove)
+    while (!entity.isDead)
     {
       yield return new WaitForSeconds(0.2f);
       GameObject player = GameObject.FindWithTag("Player");
-      if (!player) break;
+      if (!player || entity.isDead) break;
       Transform target = player.transform;
       spriteRenderer.flipX = target.position.x < transform.position.x;
-      // TODO: Raycast to see if a wall is in the way of shooting
       agent.SetDestination(target.position);
     }
-    agent.SetDestination(transform.position);
-    agent.speed = 0;
-    yield return new WaitForSeconds(0.2f);
-    animator.SetBool("isRunning", false);
+    if (!entity.isDead)
+    {
+      agent.SetDestination(transform.position);
+      agent.speed = 0;
+      yield return new WaitForSeconds(0.2f);
+      animator.SetBool("isRunning", false);
+    }
   }
 }

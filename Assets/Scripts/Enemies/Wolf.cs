@@ -4,6 +4,6 @@ public class Wolf : Entity
 {
   protected override void OnDeath()
   {
-    Destroy(gameObject);
+    base.OnDeath();
   }
 }
