@@ -1,0 +1,694 @@
+fileFormatVersion: 2
+guid: 27c374df2527a141c85a04289a833656
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2899446846129084606
+    second: ice_spell_spritesheet_0
+  - first:
+      213: 4920860364846454991
+    second: ice_spell_spritesheet_1
+  - first:
+      213: 1944691323359635910
+    second: ice_spell_spritesheet_2
+  - first:
+      213: -2840297663050034816
+    second: ice_spell_spritesheet_3
+  - first:
+      213: 7189711195804057247
+    second: ice_spell_spritesheet_4
+  - first:
+      213: 4187964117784598076
+    second: ice_spell_spritesheet_5
+  - first:
+      213: -5095480395920690647
+    second: ice_spell_spritesheet_6
+  - first:
+      213: -9020830119649842726
+    second: ice_spell_spritesheet_7
+  - first:
+      213: -7150614260493439020
+    second: ice_spell_spritesheet_8
+  - first:
+      213: 5353256192591401954
+    second: ice_spell_spritesheet_9
+  - first:
+      213: 1783643183528026282
+    second: ice_spell_spritesheet_10
+  - first:
+      213: 4210597380641317677
+    second: ice_spell_spritesheet_11
+  - first:
+      213: 2458590829542255797
+    second: ice_spell_spritesheet_12
+  - first:
+      213: 2202327838894976937
+    second: ice_spell_spritesheet_13
+  - first:
+      213: -6546586263292880808
+    second: ice_spell_spritesheet_14
+  - first:
+      213: -6112510536729316452
+    second: ice_spell_spritesheet_15
+  - first:
+      213: 3668940934103033831
+    second: ice_spell_spritesheet_16
+  - first:
+      213: 6294591072369218762
+    second: ice_spell_spritesheet_17
+  - first:
+      213: 1467327798394471674
+    second: ice_spell_spritesheet_18
+  - first:
+      213: -8407694261698527641
+    second: ice_spell_spritesheet_19
+  - first:
+      213: 4105548542767834367
+    second: ice_spell_spritesheet_20
+  - first:
+      213: 8936454885332208391
+    second: ice_spell_spritesheet_21
+  - first:
+      213: 8087938865919140342
+    second: ice_spell_spritesheet_22
+  - first:
+      213: 1290961983053285469
+    second: ice_spell_spritesheet_23
+  - first:
+      213: 1214186245362781240
+    second: ice_spell_spritesheet_24
+  - first:
+      213: -3631925331656282219
+    second: ice_spell_spritesheet_25
+  - first:
+      213: 2342309518737019358
+    second: ice_spell_spritesheet_26
+  - first:
+      213: -1514661490839340492
+    second: ice_spell_spritesheet_27
+  - first:
+      213: -4903754651788973777
+    second: ice_spell_spritesheet_28
+  - first:
+      213: 6849539375896877717
+    second: ice_spell_spritesheet_29
+  - first:
+      213: 7940622497681954337
+    second: ice_spell_spritesheet_30
+  - first:
+      213: -1006512291320142095
+    second: ice_spell_spritesheet_31
+  - first:
+      213: 7872574237673518621
+    second: ice_spell_spritesheet_32
+  - first:
+      213: 1407798985193447809
+    second: ice_spell_spritesheet_33
+  - first:
+      213: 3997144350556371419
+    second: ice_spell_spritesheet_34
+  - first:
+      213: -5208193823969480449
+    second: ice_spell_spritesheet_35
+  - first:
+      213: 4314350279103499579
+    second: ice_spell_spritesheet_36
+  - first:
+      213: 3004002125707730863
+    second: ice_spell_spritesheet_37
+  - first:
+      213: 7002874846118363217
+    second: ice_spell_spritesheet_38
+  - first:
+      213: 3501517595997761915
+    second: ice_spell_spritesheet_39
+  - first:
+      213: -7667306877487962511
+    second: ice_spell_spritesheet_40
+  - first:
+      213: 5669743189777436843
+    second: ice_spell_spritesheet_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spell_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 207
+        width: 23
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2476953947813c7d0800000000000000
+      internalID: -2899446846129084606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 207
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8d8f31e686a4440800000000000000
+      internalID: 4920860364846454991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_2
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 207
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9a2a6847eecfa10800000000000000
+      internalID: 1944691323359635910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 208
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ebc876d3cf6c360800000000000000
+      internalID: 7189711195804057247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_4
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 207
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9223e21b3973949b0800000000000000
+      internalID: -5095480395920690647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_5
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 207
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad96023fcc29fc280800000000000000
+      internalID: -9020830119649842726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_6
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 113
+        width: 13
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa02c387606c0c810800000000000000
+      internalID: 1783643183528026282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_7
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 113
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23e05d420c0f6a30800000000000000
+      internalID: 4210597380641317677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 113
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc26e2555bae1220800000000000000
+      internalID: 2458590829542255797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_9
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 113
+        width: 42
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9afe944408d309e10800000000000000
+      internalID: 2202327838894976937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_10
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 113
+        width: 47
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858d9f49a7ad525a0800000000000000
+      internalID: -6546586263292880808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_11
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 113
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93ba646d000c2ba0800000000000000
+      internalID: -6112510536729316452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 17
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac499eaea31ea5750800000000000000
+      internalID: 6294591072369218762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_13
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 17
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bc78fee5aa40c70800000000000000
+      internalID: 8936454885332208391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_14
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 16
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c830605f7a9d010800000000000000
+      internalID: 1214186245362781240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_15
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 16
+        width: 53
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d429e68b6afdb30800000000000000
+      internalID: 4314350279103499579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_16
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 16
+        width: 54
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176ab6f9401489590800000000000000
+      internalID: -7667306877487962511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spell_17
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 16
+        width: 51
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0df5a3469feae40800000000000000
+      internalID: 5669743189777436843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 873c5e5f8efa0c0f79b35bf633736ffe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ice_spell_spritesheet_16: 3668940934103033831
+      ice_spell_spritesheet_18: 1467327798394471674
+      ice_spell_spritesheet_19: -8407694261698527641
+      ice_spell_spritesheet_20: 4105548542767834367
+      ice_spell_spritesheet_22: 8087938865919140342
+      ice_spell_spritesheet_23: 1290961983053285469
+      ice_spell_spritesheet_25: -3631925331656282219
+      ice_spell_spritesheet_26: 2342309518737019358
+      ice_spell_spritesheet_27: -1514661490839340492
+      ice_spell_spritesheet_28: -4903754651788973777
+      ice_spell_spritesheet_29: 6849539375896877717
+      ice_spell_spritesheet_3: -2840297663050034816
+      ice_spell_spritesheet_30: 7940622497681954337
+      ice_spell_spritesheet_31: -1006512291320142095
+      ice_spell_spritesheet_32: 7872574237673518621
+      ice_spell_spritesheet_33: 1407798985193447809
+      ice_spell_spritesheet_34: 3997144350556371419
+      ice_spell_spritesheet_35: -5208193823969480449
+      ice_spell_spritesheet_37: 3004002125707730863
+      ice_spell_spritesheet_38: 7002874846118363217
+      ice_spell_spritesheet_39: 3501517595997761915
+      ice_spell_spritesheet_5: 4187964117784598076
+      ice_spell_spritesheet_8: -7150614260493439020
+      ice_spell_spritesheet_9: 5353256192591401954
+      spell_0: -2899446846129084606
+      spell_1: 4920860364846454991
+      spell_10: -6546586263292880808
+      spell_11: -6112510536729316452
+      spell_12: 6294591072369218762
+      spell_13: 8936454885332208391
+      spell_14: 1214186245362781240
+      spell_15: 4314350279103499579
+      spell_16: -7667306877487962511
+      spell_17: 5669743189777436843
+      spell_2: 1944691323359635910
+      spell_3: 7189711195804057247
+      spell_4: -5095480395920690647
+      spell_5: -9020830119649842726
+      spell_6: 1783643183528026282
+      spell_7: 4210597380641317677
+      spell_8: 2458590829542255797
+      spell_9: 2202327838894976937
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

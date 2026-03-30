@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class PlayerAttackController : MonoBehaviour
 {
+  private InputSystem_Actions controls;
+
   [SerializeField] private List<Attack> attacks = new List<Attack>();
   private Attack selectedAttack;
   private bool isHoldingAttack = false;
-  
-  private InputSystem_Actions controls;
 
 
   private void Awake()

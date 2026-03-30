@@ -120,7 +120,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 3
   m_MaskInteraction: 0
   m_Sprite: {fileID: 3524489409546707277, guid: 5c868eb1e249bdc4589b3ea6437085c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -173,7 +173,10 @@ MonoBehaviour:
   followDistance: 0.8
   animator: {fileID: 8982481968729198762}
   deathAnim: {fileID: 7400000, guid: d2f3ff8f3b1b1c03da531bc06c10e3e1, type: 2}
+  defaultColor: {r: 1, g: 1, b: 1, a: 1}
+  takeDmgColor: {r: 1, g: 0.55250406, b: 0.55250406, a: 1}
   rb: {fileID: 5433572534895670226}
+  spriteRenderer: {fileID: 2325400115530627179}
   agent: {fileID: 4760380005847514537}
   prefab: {fileID: 6652786252735762040}
 --- !u!114 &4125716901042686962

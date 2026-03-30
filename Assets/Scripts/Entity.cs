@@ -17,9 +17,12 @@ public abstract class Entity : MonoBehaviour
   [Header("Animations")]
   [SerializeField] private Animator animator;
   [SerializeField] private AnimationClip deathAnim;
+  [SerializeField] private Color defaultColor = Color.white;
+  [SerializeField] private Color takeDmgColor;
 
   [Header("References")]
   [SerializeField] private Rigidbody2D rb;
+  [SerializeField] private SpriteRenderer spriteRenderer;
   public NavMeshAgent agent;
   public GameObject prefab;
 
@@ -33,6 +36,7 @@ public abstract class Entity : MonoBehaviour
   public virtual void TakeDmg(int dmg)
   {
     hp -= dmg;
+    StartCoroutine(FlashHitColor());
     if (hp <= 0)
     {
       OnDeath();
@@ -56,6 +60,13 @@ public abstract class Entity : MonoBehaviour
       animator.SetTrigger("death");
       StartCoroutine(WaitForDeathAnim());
     }
+  }
+
+  private IEnumerator FlashHitColor()
+  {
+    spriteRenderer.color = takeDmgColor;
+    yield return new WaitForSeconds(0.1f);
+    spriteRenderer.color = defaultColor;
   }
 
   private IEnumerator WaitForDeathAnim()
