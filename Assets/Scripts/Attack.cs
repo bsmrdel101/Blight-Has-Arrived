@@ -51,7 +51,7 @@ public class Attack : MonoBehaviour
   private void OnTriggerEnter2D(Collider2D col)
   {
     Entity entity = col.gameObject.GetComponent<Entity>();
-    if (entity)
+    if (entity && ((!target && !col.CompareTag("Player")) || (target && col.CompareTag("Player"))))
     {
       entity.TakeDmg(dmg);
     }

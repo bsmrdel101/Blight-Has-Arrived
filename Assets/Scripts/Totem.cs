@@ -25,7 +25,8 @@ public class Totem : MonoBehaviour
 
   private void OnTriggerEnter2D(Collider2D col)
   {
-    if (col.tag != "Player") return;
+    int enemyCount = FindObjectsByType<EnemyAttackController>().Length;
+    if (col.tag != "Player" || enemyCount > 0) return;
     popup.CreatePopup("Consume totem?", GameManager.ConsumeTotemAction);
   }
 

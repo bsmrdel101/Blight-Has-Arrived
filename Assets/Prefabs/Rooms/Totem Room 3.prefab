@@ -3834,9 +3834,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca04f36275a39f38b1f3dcfdaacb7ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Room
-  difficulty: 0
-  enemyCount: 0
-  spawnEnemies: 0
+  difficulty: 1
+  enemyCount: 10
+  spawnEnemies: 1
 --- !u!1 &8045722087278321855
 GameObject:
   m_ObjectHideFlags: 0

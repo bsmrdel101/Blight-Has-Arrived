@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -14,6 +15,7 @@ public class GameManager : MonoBehaviour
   [Header("References")]
   [SerializeField] private CutsceneManager cutsceneManager;
   [SerializeField] private Cutscene firstTotemCutscene;
+  [SerializeField] private TextMeshProUGUI energyTrackerText;
 
 
   private void OnEnable()
@@ -30,6 +32,7 @@ public class GameManager : MonoBehaviour
   private void OnConsumeTotem()
   {
     totemsConsumed += 1;
+    energyTrackerText.text = $"{totemsConsumed} / 3";
     if (totemsConsumed == 1)
     {
       cutsceneManager.Play(firstTotemCutscene);
